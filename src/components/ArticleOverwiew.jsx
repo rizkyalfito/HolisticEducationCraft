@@ -1,6 +1,9 @@
 const ArticleOverwiew = () => {
   return (
-    <div>ArticelOverwiew</div>
+    <div>
+      <h1>contoh serif</h1>
+      <p>contoh poppins</p>
+    </div>
   )
 }
 
