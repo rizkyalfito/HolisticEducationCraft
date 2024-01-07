@@ -17,7 +17,7 @@ const App = () =>{
         <Route path="/" Component={Home}></Route>
         <Route path="/login" Component={Login}></Route>
         <Route path="/materi-belajar" Component={MateriBelajar}></Route>
-        <Route path="/" Component={TentangKami}></Route>
+        <Route path="/tentang-kami" Component={TentangKami}></Route>
       </Routes>
     <Footer/>
     </>
