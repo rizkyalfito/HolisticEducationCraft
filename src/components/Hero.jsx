@@ -8,7 +8,7 @@ import vector2 from "../assets/vector2.svg"
 const Hero = () => {
   return (
     <>
-      <div className='flex justify-between text-center gap-3 mt-16 align-middle '>
+      <div className='flex justify-between text-center gap-3 mt-16 align-middle fade-in '>
         <div>
           <div className=''>
             <img src={hero1} alt="" />
