@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 import '../styles/app.css'
 
 const Navbar = () => {
-    const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleScroll = () => {

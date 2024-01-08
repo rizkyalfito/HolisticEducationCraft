@@ -17,7 +17,6 @@ const Home = () => {
     <FadeIn>
       <Reviews/>
     </FadeIn>
-            
     </>
   )
 }

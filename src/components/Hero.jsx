@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
         <div className='flex-none'>
           <div className='flex-none lg:text-2xl'>
-              <h1>Masa Depan Yang Lebih Baik Untuk Anak Anda</h1>
+              <h1 className='text-3xl'>Masa Depan Yang Lebih Baik Untuk Anak Anda</h1>
               <p>Membentuk Pikiran, Merajut Masa Depan</p>
           </div>
           <div>
