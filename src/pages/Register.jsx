@@ -1,6 +1,24 @@
 import { Link } from "react-router-dom"
+import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth"
+import { useNavigate } from "react-router-dom";
 
-const Register = () => {
+export default function Register() {
+
+  const navigate = useNavigate()
+
+  const handleGoogleRegister = ()=> {
+    const auth = getAuth()
+    const provider = new GoogleAuthProvider();
+    signInWithPopup(auth, provider)
+    .then((result)=> {
+      console.info(result.user)
+      navigate("/")
+    })
+    .catch((err)=> {
+      console.error(err)
+    })
+  }
+  
   return (
     <div className="relative py-3 sm:max-w-xl sm:mx-auto">
   <div
@@ -46,6 +64,8 @@ const Register = () => {
         <div>
           <button
             className="flex items-center justify-center py-2 px-20 bg-white hover:bg-gray-200 focus:ring-blue-500 focus:ring-offset-blue-200 text-gray-700 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"
+            type="button"
+            onClick={handleGoogleRegister}
           >
             <svg
               viewBox="0 0 24 24"
@@ -143,5 +163,3 @@ const Register = () => {
 </div>
   )
 }
-
-export default Register
