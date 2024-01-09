@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import './styles/app.css'
+import './styles/app.css';
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -10,22 +10,20 @@ import TentangKami from "./pages/TentangKami";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 
-
-const App = () =>{
-  return(
+const App = () => {
+  return (
     <>
-    <Navbar/>
+      <Navbar />
       <Routes>
-        <Route path="/" Component={Home}></Route>
-        <Route path="/materi-belajar" Component={MateriBelajar}></Route>
-        <Route path="/tentang-kami" Component={TentangKami}></Route>
-        <Route path="/login" Component={Login}></Route>
-        <Route path="/register" Component={Register}></Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/materi-belajar" element={<MateriBelajar />} />
+        <Route path="/tentang-kami" element={<TentangKami />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
-    <Footer/>
+      <Footer />
     </>
-
-  )
+  );
 }
 
 export default App;
