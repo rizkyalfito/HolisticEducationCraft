@@ -1,6 +1,13 @@
+import Categories from "../components/Categories"
+import Materi from "../components/Materi"
+
 const MateriBelajar = () => {
   return (
-    <div>MateriBelajar</div>
+    <>
+    <Categories/>
+    <Materi/>
+    </>
+    
   )
 }
 
