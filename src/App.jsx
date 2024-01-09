@@ -1,5 +1,7 @@
+import { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import './styles/app.css'
+import "./firebase"
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -11,7 +13,12 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 
 
-const App = () =>{
+export default function App(){
+
+  // useEffect(()=> {
+  //   console.info(auth)
+  // }, [])
+
   return(
     <>
     <Navbar/>
@@ -27,5 +34,3 @@ const App = () =>{
 
   )
 }
-
-export default App;
