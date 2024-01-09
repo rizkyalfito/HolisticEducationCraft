@@ -59,7 +59,7 @@ const ArticleOverwiew = () => {
       </div>
 
       <div>
-        <img src={hero3} alt="" className='hidden md:block rounded-lg scale-75 -translate-y-14' />
+        <img src={hero3} alt="" className='hidden lg:block rounded-lg scale-75 -translate-y-14' />
       </div>
       </div>  
     </>
