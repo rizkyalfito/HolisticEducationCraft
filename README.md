@@ -1,4 +1,6 @@
 # HolisticEduCraft
+by Backvurner Team
+![White Green Simple and Professional Business Pitch Deck Presentation](https://github.com/rizkyalfito/HolisticEducationCraft/assets/115411913/136bc6fb-5074-4819-818f-946016d809a3)
 
 ![image](https://github.com/rizkyalfito/HolisticEducationCraft/assets/115411913/e29e29dc-3250-4e48-8e0b-e1dcd2f9b454)
 
