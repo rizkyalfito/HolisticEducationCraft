@@ -1,5 +1,8 @@
 # HolisticEduCraft
 
+![image](https://github.com/rizkyalfito/HolisticEducationCraft/assets/115411913/e29e29dc-3250-4e48-8e0b-e1dcd2f9b454)
+
+
 HolisticEduCraft is a ReactJS-based educational website designed to provide a holistic learning experience for children aged 7-12. The project focuses on delivering high-quality graphic design to engage and stimulate children's interest in learning.
 
 ## Features
