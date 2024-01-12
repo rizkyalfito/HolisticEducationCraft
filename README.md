@@ -30,4 +30,21 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/HolisticEduCraft.git
+   git clone https://github.com/rizkysalfito/HolisticEduCraft.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd HolisticEduCraft
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Install firebase:
+   ```bash
+   npm install firebase
+   ```
+5. Start the development server:
+   ```bash
+   npm run dev
+   ```
