@@ -133,7 +133,7 @@ export default function Register() {
                 fill="#FFF"
               ></path>
             </svg>
-            <span className="ml-2">Masuk dengan akun Google</span>
+            <span className="ml-2">Daftar dengan akun Google</span>
           </button>
           
         </div>
